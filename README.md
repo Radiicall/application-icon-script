@@ -13,5 +13,5 @@ Icon Directory:
 Where the icons should be moved to (Default: /usr/share/icons/hicolor)
 Icon Destination: 
 ```
-Icon name is NOT application name, you can find the name of the icon the application is using in the application's .desktop file.\
+Icon name is NOT application name, you can find the name of the icon the application is using in the application's .desktop file.
 
