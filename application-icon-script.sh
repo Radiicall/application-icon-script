@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Application Icon Script: Starting.
-ICONDIR="/home/benja/Pictures/Spotify"
+ICONDIR="$HOME/Pictures/Spotify"
 DESTDIR="/usr/share/icons/hicolor"
 ICONAME="spotify-client"
 echo
@@ -23,7 +23,7 @@ if [ "$ICONDIR" != "" ];
  then
 	echo "Icon directory changed to "${ICONDIR}"."
  else
-	ICONDIR="/home/benja/Pictures/Spotify"
+	ICONDIR="$HOME/Pictures/Spotify"
 	echo "Using default Icon directory."
 fi
 echo
