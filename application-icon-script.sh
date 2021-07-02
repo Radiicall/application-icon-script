@@ -38,7 +38,7 @@ if [ "$DESTDIR" != "" ];
         echo "Using default destination."
 fi
 echo
-echo Resizing Image
+echo Resizing image...
 convert ${ICONAME}.png -resize 512x512 ${ICONAME}-512.png
 convert ${ICONAME}.png -resize 256x256 ${ICONAME}-256.png
 convert ${ICONAME}.png -resize 128x128 ${ICONAME}-128.png
@@ -47,7 +47,8 @@ convert ${ICONAME}.png -resize 48x48 ${ICONAME}-48.png
 convert ${ICONAME}.png -resize 32x32 ${ICONAME}-32.png
 convert ${ICONAME}.png -resize 24x24 ${ICONAME}-24.png
 convert ${ICONAME}.png -resize 22x22 ${ICONAME}-22.png
-convert ${ICONAME}.png -resize 16x16 ${ICONAME}-16.png 
+convert ${ICONAME}.png -resize 16x16 ${ICONAME}-16.png
+echo Image resized successfully!
 
 if [ -d "${DESTDIR}/32x32" ];
  then
