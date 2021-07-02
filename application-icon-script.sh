@@ -5,7 +5,7 @@ DESTDIR="/usr/share/icons/hicolor"
 ICONAME="spotify-client"
 echo
 echo ==========================================================
-echo "Which icon to change. (Default: ${ICONAME}) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILE APPROPRIATLY (file extension must be .png)"
+echo "Which icon to change. (Default: ${ICONAME}) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILE APPROPRIATLY) (file extension must be .png with recommended size of >512x512)"
 read -p "Icon name: " ICONAME
 echo
 if [ "$ICONAME" != "" ];
