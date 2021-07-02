@@ -4,7 +4,7 @@ Usage:\
 `./application-icon-script.sh`\
 Prompts:\
 ```
-Which icon to change. (Default: spotify-client) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILES APPROPRIATLY EX: spotify-client-16.png)
+Which icon to change. (Default: ${ICONAME}) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILE APPROPRIATLY) (file extension must be .png with recommended size of >512x512)
 Icon name: 
 
 Directory where icons are stored. (Default: $HOME/Pictures/Spotify)
