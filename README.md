@@ -7,7 +7,7 @@ Prompts:\
 Which icon to change. (Default: ${ICONAME}) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILE APPROPRIATLY) (file extension must be .png with recommended size of >512x512)
 Icon name: 
 
-Directory where icons are stored. (Default: $HOME/Pictures/Spotify)
+Directory where icons are stored. (Default is current directory: ${PWD})
 Icon Directory: 
 
 Where the icons should be moved to (Default: /usr/share/icons/hicolor)
