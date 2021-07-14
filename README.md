@@ -2,7 +2,7 @@
 Script for changing application icons\
 Usage:\
 `./application-icon-script.sh`\
-Prompts:\
+Prompts:
 ```
 Which icon to change. (Default: ${DEFICONAME}) (CHECK .desktop FILE FOR ICON NAME AND NAME YOUR FILE APPROPRIATLY) (file extension must be .png with recommended size of >512x512)
 Icon name: 
